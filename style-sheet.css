@@ -3,9 +3,13 @@ body {
     margin: 0;
 }
 
+.bolden {
+    font-weight: bolder;
+}
+
 * {
     font: 1em lato;
-    font-weight: bold;
+    font-weight: normal;
     color: #495464;
 }
 
@@ -18,7 +22,7 @@ body {
     padding: 12px;
 }
 
-.top-section a {
+a {
     text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ input[type=submit] {
 
 .result-display {
     display: block;
-    padding: 5%;
+    padding: 10%;
 }
 
 .input-icons i {
@@ -71,6 +75,7 @@ input[type=submit] {
     border-radius: 2em;
 }
 
+.search-button,
 .crawl-button {
     border-radius: 4px;
     background-color: #E8E8E8;
